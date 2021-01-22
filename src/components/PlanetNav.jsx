@@ -12,7 +12,7 @@ import saturn from '../images/saturn.png';
 export default function PlanetNav() {
   return (
 
-    <div className="planet-Menu-grid">
+    <div className="planet-menu-grid">
    
       <div className="div1">
       <img  id="spacejam" src={spacejam}/> 
@@ -24,7 +24,7 @@ export default function PlanetNav() {
 
 
       <div className="div3">
-        nothing here 
+       
       </div>
      
      

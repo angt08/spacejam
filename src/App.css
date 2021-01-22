@@ -2,48 +2,50 @@
   text-align: center;
 }
 /* ________________planet image sizes________________________*/
+img{
+ width: 100%;
+ object-fit: contain;
+}
+
 
   #spacejam{
-    width: 100%;
-  
+    /* width: 35em; */
+    
+
   }
 
   #earth{
-    width: 100%;
+    /* width: 8em; */
   
   }
   
   #bball{
-    width: 100%;
+    /* width: 7em; */
+  
+
     
   }
   #bplanet{
-    width: 100%;
+    /* width: 8em; */
     
   }
   #jjam{
-    width: 100%;
+    /* width: 10em; */
   }
   
   #mars{
-    width: 100%;
+    /* width: 10em; */
     
   }
   
   #metro{
-    width: 100%;
+    /* width: 9em; */
   }
   
   #saturn{
-    width: 100%;
+    /* width: 10em; */
 
   }
-
-
-
-
-
-
 
 
 
@@ -51,79 +53,116 @@
 /* ________________planet navitation grid_________________________ */
 .planet-menu-grid{
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* grid-gap: 10px; */
 
 
 
-  grid-template-columns: 1fr 20% 30% 20% 1fr;
+  grid-template-columns: 1fr 20% 40% 20% 1fr;
   grid-template-rows: 1fr 20% 30% 20% 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  /* grid-column-gap: 0px;
+  grid-row-gap: 0px; */
+
+  grid-column-gap: 10px;
+  grid-row-gap: 3px;
+
+ 
 }
 
 
   
   .div1 {
+    /* spacejam */
     grid-area: 3 / 3 / 4 / 4;
+    
+   
+
+    /* width: 35em; */
+    border-radius: 100%;
+    border:2px solid black;
+  }
   
-    width:30em;
-  }
-
   .div2 {
+    /* bball */
     grid-area: 2 / 2 / 3 / 3;
-     
-    width: 8em;
+    
+    
+    
+    width: 7em;
+     border-radius: 100%;
+    border:2px solid black;
+    margin:0% 0% 5% 70%;
   }
-
+  
   .div3 {
+    /* empty div */
     grid-area: 2 / 3 / 3 / 4;
     
-    width: 10em; 
+     border-radius: 100%;
+    border:2px solid black;
   }
-
+  
   .div4 {
+    /* jjam */
     grid-area: 2 / 4 / 3 / 5;
     
     width: 10em;
+    border-radius: 100%;
+    border:2px solid black;
   }
-
-  .div5 {
-    grid-area: 3 / 4 / 4 / 5;
   
-    width: 8em;
-  }
-
-  .div6 {
-    grid-area: 4 / 4 / 5 / 5;
+  .div5 {
+    /* mars */
+    grid-area: 3 / 4 / 4 / 5;
+    
    
-    width: 10em;
+     width: 10em;
+     border-radius: 100%;
+    border:2px solid black;
   }
+  
+  .div6 {
+    /* earth */
+    grid-area: 4 / 4 / 5 / 5;
+    
+    
 
+    width: 8em;
+    border-radius: 100%;
+    margin: 0% 0% 5% -50%;
+    border:2px solid black;
+  }
+  
   .div7 {
+    /* blue planet */
     grid-area: 4 / 3 / 5 / 4;
     
-    width: 10em;
+   
+    width: 8em;
+ border-radius: 100%;
+    margin:10% 10% 5% 20%;
+    border:2px solid black;
   }
-
+  
   .div8 {
+    /* jam central */
     grid-area: 4 / 2 / 5 / 3;
-  
-    width: 12em;
+    
+    width: 9em;
+ border-radius: 100%;
+    border:2px solid black;
   }
-
+  
   .div9 {
+    /* saturn */
     grid-area: 3 / 2 / 4 / 3;
-  
-    width: 12em;
-  }
-
-a{
-  
-  text-decoration: none;
-  }
-
-
+    
+   
+    width: 10em;
+     border-radius: 100%;
+    border:2px solid black;
+}
 
 
 /* 
