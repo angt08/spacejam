@@ -1,12 +1,13 @@
 * {
   text-align: center;
   scroll-behavior: smooth;
-  overflow: hidden;
+  
+ 
 }
 /* ________________planet image sizes________________________*/
 img{
  width: 100%;
- object-fit: contain;
+ 
 }
 
 
@@ -51,6 +52,8 @@ img{
 
 .wrapper{
   position: relative;
+  overflow: hidden;
+  height:100vh;
 
 }
 
@@ -83,9 +86,11 @@ img{
     
    
 
-    /* width: 35em; */
+    width: 45em;
     border-radius: 100%;
-    border:2px solid black;
+    
+    animation: pulse 4s infinite alternate;
+   animation-delay: 1s;
   }
   
   .div2 {
@@ -96,8 +101,10 @@ img{
     
     width: 7em;
     border-radius: 100%;
-    border:2px solid black;
-    margin:0% 0% 5% 70%;
+    
+    margin:10% -50% 5% 70%;
+    animation: bounce 1s infinite alternate;
+      -webkit-animation: bounce 1s infinite alternate;
   }
   
   .div3 {
@@ -105,7 +112,7 @@ img{
     grid-area: 2 / 3 / 3 / 4;
     
     border-radius: 100%;
-    border:2px solid black;
+    
   }
   
   .div4 {
@@ -114,8 +121,7 @@ img{
     
     width: 10em;
     border-radius: 100%;
-    margin: 0% 0% 0% -50%;
-    border:2px solid black;
+    margin: 0% 40% 0% -50%;
   }
   
   .div5 {
@@ -125,8 +131,10 @@ img{
    
      width: 10em;
      border-radius: 100%;
-    border:2px solid black;
-  }
+    
+    animation: bounce 3s infinite alternate;
+    -webkit-animation: bounce 3s infinite alternate;
+    }
   
   .div6 {
     /* earth */
@@ -137,7 +145,7 @@ img{
     width: 8em;
     border-radius: 100%;
     margin: 0% 0% 5% -50%;
-    border:2px solid black;
+    
   }
   
   .div7 {
@@ -146,18 +154,20 @@ img{
     
    
     width: 8em;
- border-radius: 100%;
-    margin:10% 10% 5% 20%;
-    border:2px solid black;
+    border-radius: 100%;
+    margin:30% 10% 5% 20%;
+
   }
   
   .div8 {
     /* jam central */
     grid-area: 4 / 2 / 5 / 3;
     
-    width: 9em;
- border-radius: 100%;
-    border:2px solid black;
+    width: 9.5em;
+    border-radius: 100%;
+    margin:0% 0% 5% 30%;
+    animation: rbounce 3s infinite alternate;
+    -webkit-animation: rbounce 3s infinite alternate;
   }
   
   .div9 {
@@ -167,8 +177,12 @@ img{
    
     width: 10em;
      border-radius: 100%;
-    border:2px solid black;
+    animation: pulse 3s infinite alternate;
+    animation-delay: 2s;
 }
+
+
+
 /* __________________Space video______________________ */
 
 #stars{
@@ -184,6 +198,81 @@ img{
   z-index: -1;
 }
 
+
+/* animations */
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes rbounce {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes pulse {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+  transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
 
 
 

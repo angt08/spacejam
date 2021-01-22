@@ -8,18 +8,18 @@ function App() {
       <div className="wrapper">
       <PlanetNav />
         
-     </div>
 
       
 
 
-        {/* <video
+        <video
         id="stars" autoPlay loop muted>
         <source
         src={stars}
         type="video/mp4" />
-       </video>   */}
+       </video>   
       
+        </div>
 
     </>
   );
