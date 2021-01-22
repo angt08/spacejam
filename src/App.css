@@ -1,33 +1,132 @@
-.App {
+* {
   text-align: center;
 }
+/* ________________planet image sizes________________________*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  #spacejam{
+    width: 100%;
+  
   }
+
+  #earth{
+    width: 100%;
+  
+  }
+  
+  #bball{
+    width: 100%;
+    
+  }
+  #bplanet{
+    width: 100%;
+    
+  }
+  #jjam{
+    width: 100%;
+  }
+  
+  #mars{
+    width: 100%;
+    
+  }
+  
+  #metro{
+    width: 100%;
+  }
+  
+  #saturn{
+    width: 100%;
+
+  }
+
+
+
+
+
+
+
+
+
+
+/* ________________planet navitation grid_________________________ */
+.planet-menu-grid{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  /* grid-gap: 10px; */
+
+
+
+  grid-template-columns: 1fr 20% 30% 20% 1fr;
+  grid-template-rows: 1fr 20% 30% 20% 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+  
+  .div1 {
+    grid-area: 3 / 3 / 4 / 4;
+  
+    width:30em;
+  }
 
+  .div2 {
+    grid-area: 2 / 2 / 3 / 3;
+     
+    width: 8em;
+  }
+
+  .div3 {
+    grid-area: 2 / 3 / 3 / 4;
+    
+    width: 10em; 
+  }
+
+  .div4 {
+    grid-area: 2 / 4 / 3 / 5;
+    
+    width: 10em;
+  }
+
+  .div5 {
+    grid-area: 3 / 4 / 4 / 5;
+  
+    width: 8em;
+  }
+
+  .div6 {
+    grid-area: 4 / 4 / 5 / 5;
+   
+    width: 10em;
+  }
+
+  .div7 {
+    grid-area: 4 / 3 / 5 / 4;
+    
+    width: 10em;
+  }
+
+  .div8 {
+    grid-area: 4 / 2 / 5 / 3;
+  
+    width: 12em;
+  }
+
+  .div9 {
+    grid-area: 3 / 2 / 4 / 3;
+  
+    width: 12em;
+  }
+
+a{
+  
+  text-decoration: none;
+  }
+
+
+
+
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +134,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+/* animation: App-logo-spin infinite 20s linear; */
