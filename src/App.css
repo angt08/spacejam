@@ -274,11 +274,8 @@ img{
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   }
-  } 
-
-
-
-
+  }  
+ 
 
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -336,8 +333,9 @@ img{
 
 
   @media only screen and (device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1){
+  /* and (max-device-width: 1024px)  */
+  /* and (-webkit-min-device-pixel-ratio: 1) */
+  {
     /* For general iPad layouts */
   
 
