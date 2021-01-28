@@ -15,11 +15,11 @@ export default function PlanetNav() {
     <div className="planet-menu-grid">
    
       <div className="div1">
-      <img  id="spacejam" src={spacejam}/> 
+      <img  id="spacejam" src={spacejam}alt="space jam"/> 
       </div>
 
       <div className="div2">
-      <img  id="bball" src={bball}/> 
+      <img  id="bball" src={bball} alt="basket ball"/> 
       </div>
 
 
@@ -29,31 +29,31 @@ export default function PlanetNav() {
      
      
       <div className="div4">
-      <img id="jjam" src={jjam} />   
+      <img id="jjam" src={jjam} alt="junior jams" />   
       </div>
      
       
       <div className="div5">
-      <img id="mars" src={mars} /> 
+      <img id="mars" src={mars} alt="mars" /> 
       </div>
 
        
       <div className="div6">
-      <img id="earth" src={erf} />
+      <img id="earth" src={erf} alt="earth" />
       </div>
 
       
       <div className="div7"> 
-      <img id="bplanet" src={bplanet} /> 
+      <img id="bplanet" src={bplanet} alt="blue planet" /> 
       </div>
 
       <div className="div8"> 
-      <img id="metro" src={metro} /> 
+      <img id="metro" src={metro} alt="metro" /> 
       </div>
     
       
       <div className="div9" >
-      <img id="saturn" src={saturn} /> 
+      <img id="saturn" src={saturn} alt="saturn" /> 
       </div>
 
 
