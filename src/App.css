@@ -11,44 +11,46 @@ img{
 }
 
 
-  #spacejam{
-    /* width: 35em; */
+  /*
+   #spacejam{
+    width: 35em;
     
 
   }
 
   #earth{
-    /* width: 8em; */
+    width: 8em;
   
   }
   
   #bball{
-    /* width: 7em; */
+    width: 7em;
   
 
     
   }
   #bplanet{
-    /* width: 8em; */
+    width: 8em;
     
   }
   #jjam{
-    /* width: 10em; */
+    width: 10em;
   }
   
   #mars{
-    /* width: 10em; */
+    width: 10em;
     
   }
   
   #metro{
-    /* width: 9em; */
+    width: 9em;
   }
   
   #saturn{
-    /* width: 10em; */
+    width: 10em;
 
-  }
+  } */
+
 
 .wrapper{
   position: relative;
@@ -278,13 +280,111 @@ img{
 
 
 
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    .planet-menu-grid{
+      margin-top: 10rem;
+    }
+
+
+
+    #spacejam{
+      width: 18em;
+    
+    }
+  
+    #earth{
+      width: 4em;
+    
+    }
+    
+    #bball{
+      width: 4em;  
+    }
+
+    #bplanet{
+      width: 4em;
+      
+    }
+    #jjam{
+      width: 6.2em;
+    }
+    
+    #mars{
+      width: 3.5em;
+      
+    }
+    
+    #metro{
+      width: 5em;
+    }
+    
+    #saturn{
+      width: 4em;
+  
+    }
+
+}
+
+
+  @media only screen and (device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+    /* For general iPad layouts */
+  
+
+
+    .planet-menu-grid{
+      margin-top: 15rem;
+    }
+
+
+
+    #spacejam{
+      width: 30em;
+    
+    }
+  
+    #earth{
+      width:5em;
+    
+    }
+    
+    #bball{
+      width: 5.5em;  
+    }
+
+    #bplanet{
+      width: 5em;
+      
+    }
+    #jjam{
+      width: 7em;
+    }
+    
+    #mars{
+      width: 4.5em;
+      
+    }
+    
+    #metro{
+      width: 7em;
+    }
+    
+    #saturn{
+      width: 5em;
+  
+    }
+
+
+
   }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-/* animation: App-logo-spin infinite 20s linear; */
+
