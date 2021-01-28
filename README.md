@@ -5,5 +5,5 @@
   [SpaceJam](spacejam.com)
 
   **to this** :
-  ![space jam](/images/Sjam.png)
+  ![space jam](../images/Sjam.png)
  
